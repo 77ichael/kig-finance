@@ -161,7 +161,8 @@ export default function KigFinanceHome() {
             <li style={styles.navItem}><a href="#services">Services</a></li>
             <li style={styles.navItem}><a href="#contact">Contact Us</a></li>
             <li style={styles.navItem}><a href="#team">Our Team</a></li>
-            <li style={styles.navItem}><a href="mailto:info@kigfinance.rw">Email</a></li>
+            <li style={styles.navItem}><a href="mailto:info@kigfinance.rw">Web Email</a></li>
+            
           </ul>
          {/*   <div style={styles.socials} aria-label="Social media links">
             <span>Facebook</span>
@@ -380,8 +381,9 @@ const styles: { [k: string]: React.CSSProperties } = {
   hero: {
     position: "relative",
     overflow: "hidden",
-    height: 520,
-    maxWidth: 1200,
+    height: "min(78vh, 760px)",
+    minHeight: 520,
+    maxWidth: 1400,
     margin: "0 auto",
     borderRadius: 24,
     boxShadow: "0 16px 36px rgba(0,0,0,0.1)",
